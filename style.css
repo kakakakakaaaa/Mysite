@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* common */
+
+body{
+  margin: 0;
+}
+
+h1{
+  margin: 0;
+  /* background: pink; */
+  padding-top: 64px;
+}
+
+p{
+  margin-top: 32px;
+  font-weight: bold;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+.containar{ 
+  max-width: 616px;
+  margin: 0 auto;
+  width: calc(100% - 64px);
+  box-sizing: border-box;
+}
